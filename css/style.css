@@ -10,13 +10,12 @@
     color: black;
   }
 
-
-/* .flex-center {
-    display:flex;
-    justify-content: center;
-    align-items: right;
-    color: grey;
-} */
+.container {
+    display: grid;
+    background: rgb(92, 146, 92);
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
 
 .name {
     text-align: center;
@@ -32,6 +31,7 @@
   
 .status{
     text-align: right;
-    color: gray;
+    color: rgb(165, 151, 151);
     font-size: 20px;
+    padding: 10px;
 }
